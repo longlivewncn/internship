@@ -26,7 +26,7 @@
           prepend-icon="mdi-home-outline"
           title="Home"
           router
-          to="/internship"
+          to="/"
         >
         </v-list-item>
         <v-list-item
