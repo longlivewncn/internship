@@ -8,50 +8,45 @@ import Project from "@/views/Project.vue";
 
 const routes = [
   {
-    path: "/internship",
-    children: [
-      {
-        path: "/",
-        name: "home",
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: Home,
-      },
-      {
-        path: "/introduction",
-        name: "intro",
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: Intro,
-      },
+    path: "/",
+    name: "home",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Home,
+  },
+  {
+    path: "/introduction",
+    name: "intro",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Intro,
+  },
 
-      {
-        path: "/teams",
-        name: "teams",
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: Teams,
-      },
-      {
-        path: "/company",
-        name: "company",
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: Company,
-      },
-      {
-        path: "/project",
-        name: "project",
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: Project,
-      },
-    ],
+  {
+    path: "/teams",
+    name: "teams",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Teams,
+  },
+  {
+    path: "/company",
+    name: "company",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Company,
+  },
+  {
+    path: "/project",
+    name: "project",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: Project,
   },
 ];
 
